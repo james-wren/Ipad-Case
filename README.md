@@ -1,42 +1,21 @@
-# I-pad Case and Stand
-I am building a 3d printed case for my A16 Ipad with a built in **adjustable stand and screen cover**. The case will be fully open source and 3d printable.
+# 3d printed Ipad A16 case
+![image](https://stasis.hackclub-assets.com/images/1775694205478-31mppr.png)
 
-## Planning
-### Case
-Case will be designed off of the [Accessory Design for Apple Devices Document](https://developer.apple.com/accessories/Accessory-Design-Guidelines.pdf) (page 448 - 454) which provide technical drawing designed to assist companys designing cases for the device.
+I made this project simply because I have a 3d printer, and dont have an ipad case. When I searched for existing Ipad cases I could not find any, so I decieded to make my own.
 
-![Ipad Technical Drawing](docs/images/ipad_p1_tech_sheet.png)
+This project is a 3d printable Ipad case, it is designed in two parts, the case and the cover. The cover is super glued into a slot on the back of the case. 
 
-I think it will be best if I design a thin rim with a honeycome style backplate. There are a lot of do not obstruct parts that I will have to design the case to not black.
+![image](https://stasis.hackclub-assets.com/images/1775694012003-z37kxu.png)
 
-For the volume and power buttons, I think it will be best if I simply leave cut outs for them, as the case will be designed slim and will already have cutouts for the do not obstructs.
+The case uses 5x1mm n52 neodynium magnets, like in the BOM. To imbed the magnets, create a pause on the final layer before the holes are covered, and simply drop the magnets in according to this guide.
+![image](https://stasis.hackclub-assets.com/images/1775779733033-7k8ddc.png)
 
-The I-pad has a very thin metal margin but a decent size screen margin, I will have to some test lips to see how big I will need them, I dont have much experience with tpu so it may take a few tries.
+![image](https://stasis.hackclub-assets.com/images/1775779794074-ja8xda.png)
 
-![Image of ipad](docs/images/ipad_img.JPG)
+![IMG_1981](https://stasis.hackclub-assets.com/images/1775781406268-jsyihv.jpg)
 
-### Stand / Screen Cover
-I want to make the stand and screen cover similar to most ipad case designs, with a soft hinge connecting it to the main case body, the only ptoblem is that most cases that incorperate a stand into this do so through the use of magnetic plates, which I don't have and wont buy, so I need to get creative
+The cover can be printed entirley in TPU, but I reccomend pausing halfway through and switching to PLA (use sometype of aditional adhesive).
 
-I cut a peice of cardboard into roughly the size of two ipad, the same way I plan on designing the case. I then did some experimentation on how I could design the cover into a compleint mechanism that would allow me to stand the ipad in the two ways I want it to. 
-
-I came up with a couple of folds that would allow this:
-
-![Carboard fold design](docs/images/cardboard.JPG)
-
-## Design / Prototyping
-I modeled a design for the cover, during this modeling I also relized I cant fit the cover and case in one print, so I will have to figure that out.
-
-During this I encountered my first major difficulty which was accuratly modeling the ipad corners, I eventually figured it out, but not with ease 
-
-![Ipad corner](docs/images/ipad_corner_fusion.png)
-
-But for now, this is the first prototype of the cover:
-
-![Cover Prototype v1](docs/images/case_v1.png)
-
-I decieded that instead of risking the full size not working, I should make a scale prototype first:
-
-![alt text](docs/images/scale_v1.png)
-
-AT the time of logging I started the test print and it is now printing. Will give another journal when done.
+|Name|Purpose|Quantity|Cost|Link|Distibutor|
+|-|-|-|-|-|-|
+|Neodymium magnets 5x1mm|To allow secure connection and mounting for the Ipad case|1|14.59|https://www.buyneomagnets.com/p/5mm-dia-x-1mm-thick-n52-neodymium-rare-earth-disc-magnets-100-pack/|BuyNeoMagnets

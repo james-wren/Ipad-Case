@@ -22,3 +22,7 @@ Once I finished the intial magnet model I created drawings and printed them so I
 
 
 I believe this is my final journal, I'm fully ready to submit my build, just need to update my github then I will submit.
+
+Along with this I created a map of which pole of the magnets should be placed facing up when 3d printing:
+
+![IMG_1981](https://stasis.hackclub-assets.com/images/1775781406268-jsyihv.jpg)
